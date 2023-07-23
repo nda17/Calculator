@@ -1,0 +1,68 @@
+.calc
+    width: 299px
+    height: 500px
+    padding: 15px 0px
+    background: $color-background
+    border: 1px solid $color-background
+    border-radius: 20px
+    box-shadow: 4px 4px 4px #4f4f4f
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    &__display
+        width: 92%
+        height: 101px
+        padding: 0px 10px
+        color: $color-white
+        display: flex
+        align-items: flex-end
+        justify-content: center
+        flex-direction: column
+    &__display-result
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        font-size: 2.6rem
+        line-height: 40px
+    &__display-expression
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        flex-wrap: wrap
+        font-size: 1.2rem
+        height: 46.2px
+    &__btn-block
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-evenly
+    &__btn 
+        width: 60px
+        height: 60px
+        background: #333
+        border-radius: 30px
+        font-size: 1.5rem
+        color: $color-white
+        cursor: pointer
+        user-select: none
+        margin-bottom: 10px
+        &:hover
+            filter: brightness(120%)
+        &:active
+            filter: brightness(90%)
+        &_size
+            width: 12px
+    &__btn-zero
+        width: 132px
+        display: flex
+        align-items: center
+        padding-left: 24px
+
+.color-grey
+    background: $color-grey
+
+.color-orange
+    background: $color-orange
+
+.btn-ac
+    text-transform: uppercase
