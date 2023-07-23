@@ -1,12 +1,5 @@
 # «Calculator»
 
-## [Demo](https://nda17.github.io/Calculator/)
-
-
-
-
-# «Calculator»
-
 ## Used:
 - JavaScript
 - HTML
