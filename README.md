@@ -15,3 +15,8 @@
 npm install 
 ```
 
+## Run build:
+```
+gulp
+```
+
