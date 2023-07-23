@@ -4,6 +4,8 @@
 - JavaScript
 - HTML
 - SASS
+- Gulp
+- Webpack
 
 ## Deployed:
 [Watch here](https://nda17.github.io/Calculator/)
