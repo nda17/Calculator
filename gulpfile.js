@@ -31,7 +31,6 @@ function watcher() {
     gulp.watch(path.watch.images, images);
 }
 
-
 // Последовательная обработака шрифтов
 const fonts = gulp.series(otfToTtf, ttfToWoff, fontsStyle);
 

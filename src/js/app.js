@@ -1,4 +1,4 @@
-import * as allFunctions from "./modules/functions.js";
+import * as allFunctions from "./modules/functions.js"
 
 allFunctions.isWebp();
 

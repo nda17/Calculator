@@ -1,7 +1,4 @@
 @mixin respond($breakpoint)
-    // @if $breakpoint == extra-large 
-    //     @media (max-width: 1200px) //Обычный desktop сайт - верстаем изначально
-    //         @content
     @if $breakpoint == tablet-landscape //Мал. комп. или горизонтальный планшет 
         @media (max-width: 1199px)
             @content
@@ -14,15 +11,3 @@
     @if $breakpoint == mobile-portrait
         @media (max-width: 575px)
             @content
-
-// Адаптивный шрифт (В миксине указываются максимальные и минимальные размеры ширины МАКЕТА)
-// @include adaptiv-fonts(40, 24) (вызываем указывая макетные размеры шрифта элемента, MIN и MAX значения)
-
-// Формула без миксина: font-size: calc(24px + 16 * ((100vw - 320px) / (1280 - 320)))
-// calc(мин шрифт макета + (ЧИСЛО = макс размер шрифта данного элемента в макете - мин размер шрифта данного элемента в макете) * ((100vw - мин ширина макета) / (макс ширина макета - мин ширина макета)))
-
-// $maxWidth: 1280
-// @mixin adaptiv-fonts($pcSize, $mobSize) 
-//  $addSize: $pcSize - $mobSize
-//  $maxWidth: $maxWidth - 320
-//  font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
