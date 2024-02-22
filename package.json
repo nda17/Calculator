@@ -1,13 +1,13 @@
 {
   "name": "gulp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Calculator",
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "NDA",
+  "author": "Dmitry Nefedov",
   "license": "ISC",
   "dependencies": {
     "gulp-cli": "^2.3.0"
