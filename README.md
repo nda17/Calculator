@@ -12,6 +12,8 @@
 
 ## Project setup:
 ```
+yarn
+- or - 
 npm install 
 ```
 
